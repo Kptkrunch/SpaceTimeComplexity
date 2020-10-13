@@ -2,7 +2,8 @@
 // In each 'question' function there is an answer object
 // the answer object will have two properties, time and space
 // fill in the empty strings with the correct time and space complexity
-// you may check your solution by running 'npm run jest'
+// you may check your solution by dragging the index.html into your browser or, 
+// right clicking and opening it from there
 
 // you will be asked to answer using "Name" of "Big'O", this is important for passing the tests
 // Name, would be answering using "constant", "linear", "logarithic", "quadratic", or "exponential"
@@ -19,7 +20,7 @@ const question_1 = () => {
 // };
 
     // answer using "Name"
-    let answer = { time: '', space: ''};
+    let answer = { time: '', space: '' };
     return answer;
 }
 
@@ -35,7 +36,7 @@ const question_2 = () => {
 // }
 
     // answer using "Big'O"
-    let answer = { time: '', space: ''};
+    let answer = { time: '', space: '' };
     return answer;
 }
 
@@ -51,7 +52,7 @@ const question_3 = () => {
 // }
 
     // answer using "Name"
-    let answer = { time: '', space: ''};
+    let answer = { time: '', space: '' };
     return answer;
 }
 
@@ -70,7 +71,7 @@ const question_4 = () => {
 // }
 
     // answer using "Name"
-    let answer = { time: '', space: ''};
+    let answer = { time: '', space: '' };
     return answer;
 }
 
@@ -87,7 +88,7 @@ const question_5 = () => {
 // }
 
     // answer using "Big'O"
-    let answer = { time: '', space: ''};
+    let answer = { time: '', space: '' };
     return answer;
 }
 
@@ -111,7 +112,7 @@ const question_6 = () => {
 // }
 
     // answer using "Big'O"
-    let answer = { time: '', space: ''};
+    let answer = { time: '', space: '' };
     return answer;
 }
 
@@ -124,5 +125,9 @@ exports = {
     question_1, question_2, question_3,
     question_4, question_5, question_6
 }
+
+
+
+
 
 

@@ -3,6 +3,8 @@ const q1 = {
     space: 'constant'
 }
 
+/* this one is "constant time and space because the same number of operations " */
+
 const q2 = {
     time: 'O(1)', 
     space: 'O(1)'
