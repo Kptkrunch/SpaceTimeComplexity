@@ -3,8 +3,8 @@ const q1 = {
     space: 'constant'
 }
 
-/* this one is "constant" time and space because the same number of operations and
-    values that are being regardless of any value that could be passed in" */
+/* this one is “constant” time and space, because the number of operations and
+     value stored will be the same regardless of any value that could be passed in */
 
 const q2 = {
     time: 'O(1)', 
@@ -15,7 +15,7 @@ const q2 = {
     more tricky because we are willing to accept an argument that could be any number.
     the reason this problem is not "linear" is because no matter how large the input 
     is, we are hard capped at 3 iterations.  Given that we always look at the worst
-    case scenario we got ahead and just say it will always be 3 iterations, which is
+    case scenario we go ahead and just say it will always be 3 iterations, which is
     "constant" time.  Space is constant because the number of values stored never changes. */
 
 const q3 = {
@@ -23,10 +23,10 @@ const q3 = {
     space: 'constant'
 }
 
-/* This one is linear for the oposite reason of problem_2.  Not only will we accept an
-    argument that we have to iteration over, we ensure that value is never less than 10.
+/* This one is linear for the opposite reason of problem_2.  Not only will we accept an
+    argument that we have to iterate over, we ensure that value is never less than 10.
     The minimum value of 10 is in there as something meant to trip you up.  Good job
-    if it didn't.  Her we are still in "constant" space because we never increase how much
+    if it didn't.  Here we are still in "constant" space because we never increase how much
     memory we need to use. */
 
 const q4 = {
