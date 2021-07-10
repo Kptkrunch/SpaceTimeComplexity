@@ -5,7 +5,7 @@
 // you may check your solution by dragging the index.html into your browser or, 
 // right clicking and opening it from there
 
-// you will be asked to answer using "Name" of "Big'O", this is important for passing the tests
+// you will be asked to answer using "Name" or "Big'O", this is important for passing the tests
 // Name, would be answering using "constant", "linear", "logarithic", "quadratic", or "exponential"
 // Big'O, would be answering using "O(1)", "O(n)", "O(n^2)", "O(log n)", "O(n log n)", "O(2^n)"
 
